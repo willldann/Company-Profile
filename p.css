@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(73, 197, 73);
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+
+.main-container{
+    background: url(img/pexels-pixabay-236380-scaled.jpg);
+    padding-bottom: 20rem;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    justify-content: center;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 8em;
+    margin-top: 2rem;
+}
+
+.p2{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 11rem;
+}
+
+.p2 p{
+    font-size: 30px;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+.about-icon{
+    margin-left: 75px;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.about-icon img{
+    border-radius: 9%;
+}
+
+.about{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.berita{
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    padding-right: 5em;
+}
+
+footer {
+    padding: 1rem 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .footer-icons {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-icons a {
+    margin: 0 0.5rem;
+  }
+  
+  .footer-icons svg {
+    fill: #0080ff;
+  }
+  
+  .footer-icons a:hover svg {
+    fill: #000000;
+  }
+
+  /* contact */
+
+.c2{
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
+
+.c2 h3{
+    color: green;
+    font-size: 50px;
+}
+
+.c2 h1{
+    color: white;
+    font-size: 90px;
+}
+
+
+.btn{
+    padding: 1rem 1.5rem;
+    border: 2.9px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    border-radius: 0.5rem;
+    box-shadow: #000000(4, 0, 0)0px 3px 5px;;
+    color: white;
+    background-color: rgb(68, 187, 68);
+}
+
